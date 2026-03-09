@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Архитектура Санкт-Петербурга XVIII века</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background: #f5ecdc;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      color: #2f2418;
+    }
+    .photo-placeholder {
+      border: 3px dashed #d7c39d;
+      background: rgba(255, 255, 255, 0.6);
+      min-height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border-radius: 18px;
+      color: #8a7353;
+      padding: 24px;
+    }
+    .ornament-line {
+      height: 1px;
+      width: 64px;
+      background: #d8c19a;
+    }
+  </style>
+</head>
+<body>
+  <main class="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+    <section class="overflow-hidden rounded-3xl border border-yellow-700 bg-yellow-50 shadow-xl">
+      <div class="grid gap-8 p-6 sm:p-8 lg:grid-cols-2 lg:p-12">
+        <div>
+          <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-yellow-300 bg-yellow-100 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-yellow-800">
+            Исторический сайт-экскурсия
+          </div>
+          <div class="mb-5 max-w-fit rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm text-blue-700">
+            Санкт-Петербург • XVIII век • архитектура • градостроительство
+          </div>
+          <h1 class="text-4xl font-black leading-tight sm:text-5xl lg:text-6xl">
+            Архитектурный облик
+            <span class="block text-yellow-800">Санкт-Петербурга в XVIII веке</span>
+          </h1>
+          <p class="mt-6 max-w-3xl text-base leading-8 text-gray-700 sm:text-lg">
+            Сайт показывает, как Петербург за одно столетие прошёл путь от петровского барокко к зрелому классицизму и стал архитектурной моделью имперской столицы.
+          </p>
+
+          <div class="mt-8 grid gap-4 sm:grid-cols-3">
+            <div class="rounded-3xl border border-yellow-300 bg-yellow-100 p-4">
+              <div class="text-xs uppercase tracking-wider text-yellow-800">Формат</div>
+              <div class="mt-2 text-lg font-semibold">Сайт-экскурсия</div>
+            </div>
+            <div class="rounded-3xl border border-blue-200 bg-blue-50 p-4">
+              <div class="text-xs uppercase tracking-wider text-blue-700">Маршрут</div>
+              <div class="mt-2 text-lg font-semibold">7 остановок</div>
+            </div>
+            <div class="rounded-3xl border border-green-200 bg-green-50 p-4">
+              <div class="text-xs uppercase tracking-wider text-green-700">Интерактив</div>
+              <div class="mt-2 text-lg font-semibold">Интересные вопросы и викторина</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid gap-4 self-stretch">
+          <div class="rounded-3xl border border-pink-200 bg-pink-50 p-6">
+            <div class="mb-4 text-sm font-semibold uppercase tracking-wider text-pink-700">Маршрут экскурсии</div>
+            <ol class="space-y-3 text-sm leading-7 text-pink-900">
+              <li>1. Петропавловская крепость и Петропавловский собор</li>
+              <li>2. Здание Двенадцати коллегий</li>
+              <li>3. Зимний дворец</li>
+              <li>4. Смольный собор</li>
+              <li>5. Академия художеств</li>
+              <li>6. Мраморный дворец</li>
+              <li>7. Таврический дворец</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="my-12 flex items-center justify-center gap-3 text-yellow-700">
+      <div class="ornament-line"></div>
+      <div>◈</div>
+      <div class="ornament-line"></div>
+    </div>
+
+    <section>
+      <div class="max-w-4xl">
+        <div class="mb-4 inline-flex rounded-full border border-yellow-300 bg-yellow-100 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-yellow-800">
+          1. Архитектурные стили
+        </div>
+        <h2 class="text-3xl font-black sm:text-4xl">Как менялся язык петербургской архитектуры</h2>
+        <p class="mt-4 text-base leading-8 text-gray-700 sm:text-lg">
+          В течение XVIII века облик города последовательно менялся: от петровского барокко к елизаветинскому барокко, затем к раннему и строгому классицизму.
+        </p>
+      </div>
+
+      <div class="mt-8 grid gap-4 lg:grid-cols-4">
+        <div class="rounded-3xl border border-blue-200 bg-blue-50 p-5 shadow">
+          <div class="text-xs font-semibold uppercase tracking-wider text-blue-700">1703–1730-е</div>
+          <h3 class="mt-3 text-xl font-semibold">Петровское барокко</h3>
+          <p class="mt-3 text-sm leading-7 text-gray-700">Рациональность, шпили, североевропейское влияние.</p>
+        </div>
+        <div class="rounded-3xl border border-pink-200 bg-pink-50 p-5 shadow">
+          <div class="text-xs font-semibold uppercase tracking-wider text-pink-700">1740–1760-е</div>
+          <h3 class="mt-3 text-xl font-semibold">Елизаветинское барокко</h3>
+          <p class="mt-3 text-sm leading-7 text-gray-700">Пышность, пластичность фасадов, дворцовая торжественность.</p>
+        </div>
+        <div class="rounded-3xl border border-green-200 bg-green-50 p-5 shadow">
+          <div class="text-xs font-semibold uppercase tracking-wider text-green-700">1760–1770-е</div>
+          <h3 class="mt-3 text-xl font-semibold">Ранний классицизм</h3>
+          <p class="mt-3 text-sm leading-7 text-gray-700">Симметрия, ясность композиции, спокойный декор.</p>
+        </div>
+        <div class="rounded-3xl border border-purple-200 bg-purple-50 p-5 shadow">
+          <div class="text-xs font-semibold uppercase tracking-wider text-purple-700">1780–1790-е</div>
+          <h3 class="mt-3 text-xl font-semibold">Строгий классицизм</h3>
+          <p class="mt-3 text-sm leading-7 text-gray-700">Античные мотивы, монументальность, логика пространства.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="my-12 flex items-center justify-center gap-3 text-yellow-700">
+      <div class="ornament-line"></div>
+      <div>◈</div>
+      <div class="ornament-line"></div>
+    </div>
+
+    <section class="grid gap-8 lg:grid-cols-2">
+      <div class="rounded-3xl border border-yellow-700 bg-yellow-50 p-6 shadow sm:p-8">
+        <div class="mb-4 inline-flex rounded-full border border-pink-200 bg-pink-50 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-pink-700">
+          2. Исторический контекст
+        </div>
+        <h2 class="text-3xl font-black sm:text-4xl">Как политика влияла на архитектуру</h2>
+        <div class="mt-6 space-y-3">
+          <div class="rounded-2xl border border-blue-200 bg-blue-50 p-4">
+            <div class="text-lg font-semibold text-blue-700">Пётр I</div>
+            <p class="mt-2 text-sm leading-7">Основание новой столицы европейского типа и регулярного города.</p>
+          </div>
+          <div class="rounded-2xl border border-pink-200 bg-pink-50 p-4">
+            <div class="text-lg font-semibold text-pink-700">Елизавета Петровна</div>
+            <p class="mt-2 text-sm leading-7">Расцвет парадного барокко и дворцовой репрезентативности.</p>
+          </div>
+          <div class="rounded-2xl border border-green-200 bg-green-50 p-4">
+            <div class="text-lg font-semibold text-green-700">Екатерина II</div>
+            <p class="mt-2 text-sm leading-7">Идеи Просвещения и укрепление классицизма.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rounded-3xl border border-yellow-700 bg-yellow-50 p-6 shadow sm:p-8">
+        <div class="mb-4 inline-flex rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-blue-700">
+          3. Градостроительные планы
+        </div>
+        <h2 class="text-3xl font-black sm:text-4xl">Петербург как проектируемый город</h2>
+        <div class="mt-6 space-y-3 text-sm leading-7">
+          <div class="rounded-2xl border border-blue-200 bg-blue-50 p-4">1717: Жан-Батист Леблон разработал один из ранних генеральных планов Петербурга.</div>
+          <div class="rounded-2xl border border-yellow-300 bg-yellow-100 p-4">В первой половине XVIII века рассматривалась идея сделать Васильевский остров административным центром.</div>
+          <div class="rounded-2xl border border-blue-200 bg-blue-50 p-4">1762: учреждена Комиссия о каменном строении Санкт-Петербурга и Москвы.</div>
+          <div class="rounded-2xl border border-yellow-300 bg-yellow-100 p-4">1763–1769: под руководством А. В. Квасова создан новый генеральный план города.</div>
+          <div class="rounded-2xl border border-blue-200 bg-blue-50 p-4">Во второй половине века усилился ансамблевый принцип застройки.</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="my-12 flex items-center justify-center gap-3 text-yellow-700">
+      <div class="ornament-line"></div>
+      <div>◈</div>
+      <div class="ornament-line"></div>
+    </div>
+
+    <section>
+      <div class="max-w-4xl">
+        <div class="mb-4 inline-flex rounded-full border border-green-200 bg-green-50 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-green-700">
+          4. Сценарий пешеходной экскурсии
+        </div>
+        <h2 class="text-3xl font-black sm:text-4xl">Маршрут по главным памятникам XVIII века</h2>
+      </div>
+
+      <div class="mt-8 space-y-6">
+        <div class="rounded-3xl border border-yellow-700 bg-yellow-50 p-6 shadow">
+          <h3 class="text-2xl font-semibold">1. Петропавловская крепость и Петропавловский собор</h3>
+          <div class="mt-4 grid gap-6 lg:grid-cols-[1fr_1.1fr_0.6fr]">
+            <div class="photo-placeholder">
+              <img
+  src="images/krepost.jpg"
+  alt="Петропавловская крепость"
+  class="w-full object-contain rounded-2xl border border-yellow-200"
+/>
+            </div>
+            <div>
+              <ul class="space-y-2 text-sm leading-7">
+                <li>Петропавловская крепость — место основания Санкт-Петербурга. Она была заложена Петром I в 1703 году на Заячьем острове во время Северной войны со Швецией. Сначала крепость выполняла оборонительную функцию, однако вскоре она стала символическим центром нового города.
+</li>
+<li> Главным архитектурным объектом крепости является Петропавловский собор, построенный архитектором Доменико Трезини. Его высокий шпиль резко отличается от традиционных русских храмов с куполами и отражает влияние европейской архитектуры. Этот собор стал одной из первых высотных доминант города и важной частью его панорамы. </li>
+              </ul>
+            </div>
+            <div class="rounded-2xl border border-blue-200 bg-blue-50 p-5">
+              <div class="mb-3 text-sm font-semibold uppercase tracking-wider text-blue-700">Интерактив</div>
+              <p class="text-sm leading-7 text-blue-900">Почему новый столичный город начинался именно с крепости и собора?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl border border-yellow-700 bg-yellow-50 p-6 shadow">
+          <h3 class="text-2xl font-semibold">2. Здание Двенадцати коллегий</h3>
+          <div class="mt-4 grid gap-6 lg:grid-cols-[1fr_1.1fr_0.6fr]"><img
+  src="images/col.jpg"
+  alt="Петропавловская крепость"
+  class="w-full object-contain rounded-2xl border border-yellow-200"
+/>
+            <div>
+              <ul class="space-y-2 text-sm leading-7">
+                <li>Здание Двенадцати коллегий было построено в первой половине XVIII века для размещения высших органов государственного управления Российской империи. Эти учреждения были созданы Петром I в рамках реформ государственной системы.</li>
+
+<li>Архитектором здания был Доменико Трезини. Комплекс представляет собой длинное здание, состоящее из двенадцати одинаковых частей, каждая из которых предназначалась для отдельной коллегии. Такая композиция символизировала порядок, системность и новую бюрократическую структуру государства.</li>
+
+<li>Сегодня в этом здании располагается Санкт-Петербургский государственный университет.</li>
+              </ul>
+            </div>
+            <div class="rounded-2xl border border-blue-200 bg-blue-50 p-5">
+              <div class="mb-3 text-sm font-semibold uppercase tracking-wider text-blue-700">Интерактив</div>
+              <p class="text-sm leading-7 text-blue-900">Как архитектура может передавать идею сильного государства?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl border border-yellow-700 bg-yellow-50 p-6 shadow">
+          <h3 class="text-2xl font-semibold">3. Зимний дворец</h3>
+          <div class="mt-4 grid gap-6 lg:grid-cols-[1fr_1.1fr_0.6fr]">
+                          <img
+  src="images/zim.jpg"
+  alt="Петропавловская крепость"
+  class="w-full object-contain rounded-2xl border border-yellow-200"
+/>
+            <div>
+              <ul class="space-y-2 text-sm leading-7">
+                <li>Зимний дворец — одна из самых известных построек Санкт-Петербурга и главный символ императорской власти XVIII века. Он был построен в 1754–1762 годах по проекту архитектора Франческо Бартоломео Растрелли.</li>
+
+<li>Дворец выполнен в стиле елизаветинского барокко, который отличается богатым декором, сложной пластикой фасадов и торжественной архитектурой. Огромные размеры здания и роскошное оформление подчёркивали статус России как мощной европейской державы.</li>
+
+<li>Сегодня Зимний дворец входит в комплекс Государственного Эрмитажа — одного из крупнейших музеев мира.</li>
+              </ul>
+            </div>
+            <div class="rounded-2xl border border-blue-200 bg-blue-50 p-5">
+              <div class="mb-3 text-sm font-semibold uppercase tracking-wider text-blue-700">Интерактив</div>
+              <p class="text-sm leading-7 text-blue-900">Почему архитектура середины века стала более роскошной?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl border border-yellow-700 bg-yellow-50 p-6 shadow">
+          <h3 class="text-2xl font-semibold">4. Смольный собор</h3>
+          <div class="mt-4 grid gap-6 lg:grid-cols-[1fr_1.1fr_0.6fr]">
+                          <img
+  src="images/smol.jpg"
+  alt="Петропавловская крепость"
+  class="w-full object-contain rounded-2xl border border-yellow-200"
+/>
+            <div>
+              <ul class="space-y-2 text-sm leading-7">
+               <li>Смольный собор является одним из наиболее выдающихся памятников русского барокко. Он был построен по проекту Франческо Бартоломео Растрелли в середине XVIII века.</li>
+
+<li>Собор задумывался как часть большого монастырского ансамбля, который должен был стать центром женского монастыря, основанного по инициативе императрицы Елизаветы Петровны. Архитектура собора отличается лёгкостью, изящными декоративными элементами и гармоничными пропорциями.</li>
+
+<li>Смольный собор считается одним из самых красивых храмов Санкт-Петербурга и важной частью архитектурного наследия города.</li>
+              </ul>
+            </div>
+            <div class="rounded-2xl border border-blue-200 bg-blue-50 p-5">
+              <div class="mb-3 text-sm font-semibold uppercase tracking-wider text-blue-700">Интерактив</div>
+              <p class="text-sm leading-7 text-blue-900">Почему церковные ансамбли были важны для имперского образа города?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl border border-yellow-700 bg-yellow-50 p-6 shadow">
+          <h3 class="text-2xl font-semibold">5. Академия художеств</h3>
+          <div class="mt-4 grid gap-6 lg:grid-cols-[1fr_1.1fr_0.6fr]">
+                         <img
+  src="images/aka.jpg"
+  alt="Петропавловская крепость"
+  class="w-full object-contain rounded-2xl border border-yellow-200"
+/>
+            <div>
+              <ul class="space-y-2 text-sm leading-7">
+              <li> Императорская Академия художеств была основана в 1757 году и стала главным образовательным центром для художников, скульпторов и архитекторов Российской империи.</li>
+
+<li>Здание Академии, построенное во второй половине XVIII века, является ярким примером раннего классицизма. В архитектуре здания проявляются симметрия, строгие пропорции и сдержанный декор, характерные для этого стиля.</li>
+
+<li>Академия сыграла огромную роль в развитии русской архитектуры и искусства, поскольку именно здесь обучались многие выдающиеся мастера.</li>
+              </ul>
+            </div>
+            <div class="rounded-2xl border border-blue-200 bg-blue-50 p-5">
+              <div class="mb-3 text-sm font-semibold uppercase tracking-wider text-blue-700">Интерактив</div>
+              <p class="text-sm leading-7 text-blue-900">Почему архитектуре нужны не только здания, но и академии?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl border border-yellow-700 bg-yellow-50 p-6 shadow">
+          <h3 class="text-2xl font-semibold">6. Мраморный дворец</h3>
+          <div class="mt-4 grid gap-6 lg:grid-cols-[1fr_1.1fr_0.6fr]">
+                          <img
+  src="images/mram.jpg"
+  alt="Петропавловская крепость"
+  class="w-full object-contain rounded-2xl border border-yellow-200"
+/>
+            <div>
+              <ul class="space-y-2 text-sm leading-7">
+               <li>Мраморный дворец был построен в 1768–1785 годах по проекту архитектора Антонио Ринальди для фаворита Екатерины II — графа Григория Орлова.</li>
+
+<li>Особенностью дворца является использование большого количества различных видов мрамора, благодаря чему здание и получило своё название. Архитектура дворца сочетает элементы позднего барокко и раннего классицизма.</li>
+
+<li>Мраморный дворец отражает переходный этап развития архитектуры Петербурга, когда пышность барокко постепенно уступала место более строгому и рациональному классицизму.</li>
+              </ul>
+            </div>
+            <div class="rounded-2xl border border-blue-200 bg-blue-50 p-5">
+              <div class="mb-3 text-sm font-semibold uppercase tracking-wider text-blue-700">Интерактив</div>
+              <p class="text-sm leading-7 text-blue-900">Почему в эпоху Просвещения ценились порядок и симметрия?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl border border-yellow-700 bg-yellow-50 p-6 shadow">
+          <h3 class="text-2xl font-semibold">7. Таврический дворец</h3>
+          <div class="mt-4 grid gap-6 lg:grid-cols-[1fr_1.1fr_0.6fr]">
+                         <img
+  src="images/tavr.jpg"
+  alt="Петропавловская крепость"
+  class="w-full object-contain rounded-2xl border border-yellow-200"
+/>
+            <div>
+              <ul class="space-y-2 text-sm leading-7">
+<li>Таврический дворец был построен в 1783–1789 годах архитектором Иваном Старовым для князя Григория Потёмкина. Он является одним из лучших примеров зрелого классицизма в архитектуре Санкт-Петербурга.</li>
+
+<li>В отличие от барочных дворцов середины века, Таврический дворец отличается простотой форм, симметрией и монументальностью. Архитектура здания подчёркивает гармонию и порядок, характерные для эстетики классицизма.</li>
+
+<li>Этот дворец завершает архитектурное развитие XVIII века в Петербурге и показывает переход к более строгим и рациональным архитектурным решениям.</li>
+              </ul>
+            </div>
+            <div class="rounded-2xl border border-blue-200 bg-blue-50 p-5">
+              <div class="mb-3 text-sm font-semibold uppercase tracking-wider text-blue-700">Интерактив</div>
+              <p class="text-sm leading-7 text-blue-900">Как изменилось представление о красоте города к концу XVIII века?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="my-12 flex items-center justify-center gap-3 text-yellow-700">
+      <div class="ornament-line"></div>
+      <div>◈</div>
+      <div class="ornament-line"></div>
+    </div>
+
+    <section class="grid gap-8 lg:grid-cols-2">
+      <div class="rounded-3xl border border-yellow-700 bg-yellow-50 p-6 shadow sm:p-8">
+        <div class="mb-4 inline-flex rounded-full border border-purple-200 bg-purple-50 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-purple-700">
+          5. Архитекторы и заказчики
+        </div>
+        <h2 class="text-3xl font-black sm:text-4xl">Кто формировал городской ландшафт</h2>
+        <div class="mt-6 grid gap-3">
+          <div class="rounded-2xl border border-blue-200 bg-blue-50 p-4">
+            <div class="text-lg font-semibold">Доменико Трезини</div>
+            <p class="mt-2 text-sm leading-7">Один из создателей раннего Петербурга и петровского барокко.</p>
+          </div>
+          <div class="rounded-2xl border border-pink-200 bg-pink-50 p-4">
+            <div class="text-lg font-semibold">Ф. Б. Растрелли</div>
+            <p class="mt-2 text-sm leading-7">Главный мастер елизаветинского барокко, автор Зимнего дворца и Смольного.</p>
+          </div>
+          <div class="rounded-2xl border border-green-200 bg-green-50 p-4">
+            <div class="text-lg font-semibold">А. Ринальди</div>
+            <p class="mt-2 text-sm leading-7">Важная фигура перехода к классицизму.</p>
+          </div>
+          <div class="rounded-2xl border border-purple-200 bg-purple-50 p-4">
+            <div class="text-lg font-semibold">Ж.-Б. Валлен-Деламот</div>
+            <p class="mt-2 text-sm leading-7">Представитель раннего классицизма и один из авторов Академии художеств.</p>
+          </div>
+          <div class="rounded-2xl border border-yellow-300 bg-yellow-100 p-4">
+            <div class="text-lg font-semibold">И. Е. Старов</div>
+            <p class="mt-2 text-sm leading-7">Лидер зрелого классицизма, автор Таврического дворца.</p>
+          </div>
+          <div class="rounded-2xl border border-purple-200 bg-purple-50 p-4">
+            <div class="text-lg font-semibold">Джакомо Кваренги</div>
+            <p class="mt-2 text-sm leading-7">Мастер строгого классицизма конца XVIII века.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rounded-3xl border border-yellow-700 bg-yellow-50 p-6 shadow sm:p-8">
+        <div class="mb-4 inline-flex rounded-full border border-yellow-300 bg-yellow-100 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-yellow-800">
+          6. Выводы
+        </div>
+        <h2 class="text-3xl font-black sm:text-4xl">Почему XVIII век определил современный облик Петербурга</h2>
+        <div class="mt-6 space-y-4 text-sm leading-8">
+          <p>Петербург XVIII века — это не просто набор красивых зданий, а целостная архитектурная программа.</p>
+          <p>От петровского барокко город унаследовал регулярность и ориентацию на Европу, от елизаветинского барокко — парадность, а от классицизма — ясность и масштаб.</p>
+          <p>Современный центр города во многом продолжает именно те принципы, которые были заложены в XVIII веке.</p>
+        </div>
+        <div class="mt-6 rounded-2xl border border-yellow-300 bg-yellow-100 p-5 text-sm leading-7 text-yellow-900">
+          «XVIII век сделал Санкт-Петербург не просто новой столицей, а архитектурной моделью Российской империи».
+        </div>
+
+        <div class="mt-6 rounded-2xl border border-blue-200 bg-blue-50 p-5">
+          <div class="mb-2 text-sm font-semibold uppercase tracking-wider text-blue-700">Источниковая база</div>
+          <p class="text-sm leading-7 text-blue-900">
+            Материал собран по энциклопедическим и музейным сведениям о петербургских памятниках XVIII века и градостроительных планах эпохи. В частности использовался "А. И. Богданов — «Описание Санктпетербурга» (1751)".
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="my-12 flex items-center justify-center gap-3 text-yellow-700">
+      <div class="ornament-line"></div>
+      <div>◈</div>
+      <div class="ornament-line"></div>
+    </div>
+
+    <section class="rounded-3xl border border-yellow-700 bg-yellow-50 p-6 shadow sm:p-8">
+      <div class="mb-4 inline-flex rounded-full border border-pink-200 bg-pink-50 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-pink-700">
+        7. Интерактивность
+      </div>
+      <h2 class="text-3xl font-black sm:text-4xl">Мини-викторина</h2>
+
+      <div class="mt-8 grid gap-4 lg:grid-cols-2">
+        <div class="rounded-3xl border border-green-200 bg-green-50 p-5">
+          <div class="mb-4 text-base font-semibold leading-7">Какой стиль был характерен для раннего Петербурга времён Петра I?</div>
+          <ul class="space-y-2 text-sm">
+            <li class="rounded-2xl border border-white bg-white px-4 py-3">Петровское барокко</li>
+            <li class="rounded-2xl border border-white bg-white px-4 py-3">Ампир</li>
+            <li class="rounded-2xl border border-white bg-white px-4 py-3">Модерн</li>
+          </ul>
+        </div>
+
+        <div class="rounded-3xl border border-purple-200 bg-purple-50 p-5">
+          <div class="mb-4 text-base font-semibold leading-7">Какой архитектор связан с Зимним дворцом и Смольным собором?</div>
+          <ul class="space-y-2 text-sm">
+            <li class="rounded-2xl border border-white bg-white px-4 py-3">Иван Старов</li>
+            <li class="rounded-2xl border border-white bg-white px-4 py-3">Ф. Б. Растрелли</li>
+            <li class="rounded-2xl border border-white bg-white px-4 py-3">Джакомо Кваренги</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
