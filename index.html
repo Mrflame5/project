@@ -449,73 +449,115 @@
   <h2 class="text-3xl font-black sm:text-4xl">Мини-викторина</h2>
 
   <div class="mt-8 grid gap-4 lg:grid-cols-2">
-    <div class="rounded-3xl border border-green-200 bg-green-50 p-5">
+    <div class="quiz-card rounded-3xl border border-green-200 bg-green-50 p-5">
       <div class="mb-4 text-base font-semibold leading-7">
         Какой стиль был характерен для раннего Петербурга времён Петра I?
       </div>
-      <ul class="space-y-2 text-sm">
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Петровское барокко</li>
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Ампир</li>
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Модерн</li>
-      </ul>
+      <div class="space-y-2 text-sm">
+        <button class="quiz-option w-full rounded-2xl border border-white bg-white px-4 py-3 text-left transition hover:bg-green-100" data-correct="true">
+          Петровское барокко
+        </button>
+        <button class="quiz-option w-full rounded-2xl border border-white bg-white px-4 py-3 text-left transition hover:bg-green-100" data-correct="false">
+          Ампир
+        </button>
+        <button class="quiz-option w-full rounded-2xl border border-white bg-white px-4 py-3 text-left transition hover:bg-green-100" data-correct="false">
+          Модерн
+        </button>
+      </div>
+      <p class="quiz-result mt-4 text-sm font-semibold"></p>
     </div>
 
-    <div class="rounded-3xl border border-purple-200 bg-purple-50 p-5">
+    <div class="quiz-card rounded-3xl border border-purple-200 bg-purple-50 p-5">
       <div class="mb-4 text-base font-semibold leading-7">
         Какой архитектор связан с Зимним дворцом и Смольным собором?
       </div>
-      <ul class="space-y-2 text-sm">
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Иван Старов</li>
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Ф. Б. Растрелли</li>
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Джакомо Кваренги</li>
-      </ul>
+      <div class="space-y-2 text-sm">
+        <button class="quiz-option w-full rounded-2xl border border-white bg-white px-4 py-3 text-left transition hover:bg-purple-100" data-correct="false">
+          Иван Старов
+        </button>
+        <button class="quiz-option w-full rounded-2xl border border-white bg-white px-4 py-3 text-left transition hover:bg-purple-100" data-correct="true">
+          Ф. Б. Растрелли
+        </button>
+        <button class="quiz-option w-full rounded-2xl border border-white bg-white px-4 py-3 text-left transition hover:bg-purple-100" data-correct="false">
+          Джакомо Кваренги
+        </button>
+      </div>
+      <p class="quiz-result mt-4 text-sm font-semibold"></p>
     </div>
 
-    <div class="rounded-3xl border border-blue-200 bg-blue-50 p-5">
+    <div class="quiz-card rounded-3xl border border-blue-200 bg-blue-50 p-5">
       <div class="mb-4 text-base font-semibold leading-7">
         Какое здание стало символом императорской власти XVIII века?
       </div>
-      <ul class="space-y-2 text-sm">
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Академия художеств</li>
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Зимний дворец</li>
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Здание Двенадцати коллегий</li>
-      </ul>
+      <div class="space-y-2 text-sm">
+        <button class="quiz-option w-full rounded-2xl border border-white bg-white px-4 py-3 text-left transition hover:bg-blue-100" data-correct="false">
+          Академия художеств
+        </button>
+        <button class="quiz-option w-full rounded-2xl border border-white bg-white px-4 py-3 text-left transition hover:bg-blue-100" data-correct="true">
+          Зимний дворец
+        </button>
+        <button class="quiz-option w-full rounded-2xl border border-white bg-white px-4 py-3 text-left transition hover:bg-blue-100" data-correct="false">
+          Здание Двенадцати коллегий
+        </button>
+      </div>
+      <p class="quiz-result mt-4 text-sm font-semibold"></p>
     </div>
 
-    <div class="rounded-3xl border border-yellow-300 bg-yellow-100 p-5">
+    <div class="quiz-card rounded-3xl border border-yellow-300 bg-yellow-100 p-5">
       <div class="mb-4 text-base font-semibold leading-7">
         Какой архитектурный стиль утвердился в Петербурге во второй половине XVIII века?
       </div>
-      <ul class="space-y-2 text-sm">
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Готика</li>
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Классицизм</li>
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Модерн</li>
-      </ul>
-    </div>
-
-    <div class="rounded-3xl border border-pink-200 bg-pink-50 p-5">
-      <div class="mb-4 text-base font-semibold leading-7">
-        Для чего изначально было построено здание Двенадцати коллегий?
+      <div class="space-y-2 text-sm">
+        <button class="quiz-option w-full rounded-2xl border border-white bg-white px-4 py-3 text-left transition hover:bg-yellow-200" data-correct="false">
+          Готика
+        </button>
+        <button class="quiz-option w-full rounded-2xl border border-white bg-white px-4 py-3 text-left transition hover:bg-yellow-200" data-correct="true">
+          Классицизм
+        </button>
+        <button class="quiz-option w-full rounded-2xl border border-white bg-white px-4 py-3 text-left transition hover:bg-yellow-200" data-correct="false">
+          Модерн
+        </button>
       </div>
-      <ul class="space-y-2 text-sm">
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Для размещения императорской семьи</li>
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Для высших органов государственного управления</li>
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Для военного гарнизона</li>
-      </ul>
-    </div>
-
-    <div class="rounded-3xl border border-green-200 bg-green-50 p-5">
-      <div class="mb-4 text-base font-semibold leading-7">
-        Какой собор считается одним из самых ярких памятников русского барокко в Петербурге?
-      </div>
-      <ul class="space-y-2 text-sm">
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Смольный собор</li>
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Казанский собор</li>
-        <li class="rounded-2xl border border-white bg-white px-4 py-3">Исаакиевский собор</li>
-      </ul>
+      <p class="quiz-result mt-4 text-sm font-semibold"></p>
     </div>
   </div>
 </section>
+
+<script>
+  document.querySelectorAll('.quiz-card').forEach(card => {
+    const options = card.querySelectorAll('.quiz-option');
+    const result = card.querySelector('.quiz-result');
+    let answered = false;
+
+    options.forEach(option => {
+      option.addEventListener('click', () => {
+        if (answered) return;
+        answered = true;
+
+        const isCorrect = option.dataset.correct === 'true';
+
+        options.forEach(btn => {
+          btn.disabled = true;
+          btn.classList.remove('hover:bg-green-100', 'hover:bg-purple-100', 'hover:bg-blue-100', 'hover:bg-yellow-200');
+
+          if (btn.dataset.correct === 'true') {
+            btn.classList.add('bg-green-200', 'border-green-500');
+          }
+        });
+
+        if (isCorrect) {
+          option.classList.add('bg-green-200', 'border-green-600');
+          result.textContent = 'Верно!';
+          result.classList.add('text-green-700');
+        } else {
+          option.classList.add('bg-red-200', 'border-red-600');
+          result.textContent = 'Неверно.';
+          result.classList.add('text-red-700');
+        }
+      });
+    });
+  });
+</script>
   </main>
 </body>
 </html>
